@@ -7,4 +7,33 @@
 
 .head-title {
 background-color: yellow;
+height: 350px;
+}
+
+.container-up-header {
+  height: 50px;
+  background-color: blue;
+}
+
+.logo{
+  float: left;
+}
+
+.list-header {
+  float: left;
+  background-color: blue;
+  width: 33.33%;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 15px;
+
+}
+.list-header li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.list-header a {
+  text-decoration: none;
+  color: white;
 }
