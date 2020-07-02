@@ -9,13 +9,16 @@
   width: 80%;
   margin-left: auto;
 }
+
 .head-title {
 background-color: blue;
 height: 350px;
 }
 
+/* barra alta titolo  */
+
 .container-up-header {
-  height: 50px;
+  /* height: 50px; */
   background-color: blue;
 }
 
@@ -24,7 +27,7 @@ height: 350px;
 .logo{
   background-color: blue;
   float: left;
-  height: 50px;
+  /* height: 50px; */
   /* width: : 33.33%; */
 }
 
@@ -83,4 +86,26 @@ height: 350px;
 }
 /* /2nd button */
 /* /button */
+/* /barra alta titolo */
+
+/* titolo principale */
+.container-bottom-header {
+  height: 300px;
+  background-color: blue;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-image: url("../img/background-header.png");
+  background-position: bottom right;
+  position: relative;
+}
+
+.main-title {
+  display: inline-block;
+  padding: 0 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
 /*/ menù header */
