@@ -13,10 +13,16 @@ height: 350px;
 .container-up-header {
   height: 50px;
   background-color: blue;
+
 }
 
+
+
 .logo{
+  background-color: blue;
   float: left;
+  height: 50px;
+  width: : 33.33%;
 }
 
 .list-header {
@@ -25,12 +31,19 @@ height: 350px;
   width: 33.33%;
   text-align: center;
   line-height: 50px;
-  margin: 0 15px;
-
 }
+
+.container-up-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .list-header li {
   display: inline-block;
   padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .list-header a {
