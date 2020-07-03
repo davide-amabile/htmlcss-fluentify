@@ -90,7 +90,7 @@ height: 350px;
 
 /* titolo principale */
 .container-bottom-header {
-  height: 300px;
+  height: 283px;
   background-color: blue;
   background-size: 700px;
   background-repeat: no-repeat;
@@ -100,12 +100,35 @@ height: 350px;
 }
 
 .main-title {
-  display: inline-block;
-  padding: 0 15px;
   color: white;
   text-transform: uppercase;
+  margin-top: 15px;
 }
 
+#b-sec {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  border: 2px solid  #4CAF50;
+  padding: 5px 12px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 5px;
+}
+/*/ titolo principale */
+/*/header*/
 
 
-/*/ menù header */
+/* corpo centrale */
+
+/* barra grigia */
+
+.grey-row {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.grey-row p {
+  margin-top: 5px;
+}
