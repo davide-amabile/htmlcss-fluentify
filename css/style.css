@@ -7,7 +7,7 @@
 /* menù header */
 .container {
   width: 80%;
-  margin-left: auto;
+  margin: auto;
 }
 
 .head-title {
