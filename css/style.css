@@ -92,11 +92,11 @@ height: 350px;
 .container-bottom-header {
   height: 283px;
   background-color: blue;
+  background-image: url("../img/background-header.png");
   background-size: 700px;
   background-repeat: no-repeat;
-  background-image: url("../img/background-header.png");
   background-position: bottom right;
-  position: relative;
+  /* position: relative; */
 }
 
 .main-title {
@@ -132,3 +132,4 @@ height: 350px;
 .grey-row p {
   margin-top: 5px;
 }
+/* /barra grigia */
